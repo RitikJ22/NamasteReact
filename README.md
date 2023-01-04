@@ -1,2 +1,2 @@
 # NamasteReact
-This is a repo for Namaste React Course
+This is a repository for Namaste React Coursework 
