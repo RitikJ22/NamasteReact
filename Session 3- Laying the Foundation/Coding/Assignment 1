@@ -1,1 +1,19 @@
 
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+const Heading =()=>( <h1 key="h1" > This is Namaste React Course</h1>)
+
+const HeaderComponent =() =>{
+  return(<>
+  <h1 style={{color:'blue'}} key="1"> Namaste World</h1>
+  <h2 style={{color:'yellow'}}> I'm Ritik</h2> 
+  <Heading/>
+  </>) 
+ 
+
+};
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(<HeaderComponent />);
+
