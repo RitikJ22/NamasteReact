@@ -66,6 +66,7 @@ A: `config.js` files are essentially editable text files that contain informatio
 Most of the computer programs we use: whether office suites, web browsers, even video games are configured via menu interfaces.
 Configuration files are very simple in structure. For instance, if you were to write an application, and the only thing it ever needed to know was its user's preferred name, then its one and only config file could contain exactly one word: the name of the user. 
 ```
+```
 
 ## Q: What are `React Hooks`?
 A: In React version 16.8, React introduced a new pattern called Hooks. React Hooks are simple JavaScript functions that we can use to isolate the reusable part from a functional component. Hooks can be stateful and can manage side-effects.
