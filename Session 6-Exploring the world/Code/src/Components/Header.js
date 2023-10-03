@@ -1,0 +1,46 @@
+import { useState } from "react";
+
+
+export const Title = () => (
+  <a href="/">
+    <img
+      className="w-16 ml-2"
+      src="https://i.pinimg.com/originals/82/be/d4/82bed479344270067e3d2171379949b3.png"
+      alt="logo"
+    />
+  </a>
+);
+
+
+
+
+
+const Header = () => {
+  const [isLoggedIn ,setisLoggedIn]= useState(true);
+  return (
+    <>
+      <div className="flex justify-between m-6 border-4 border-black lg:items-center rounded-lg ">
+        <Title />
+        <div className="">
+          <ul className="flex gap-4 lg:justify-between lg:items-center lg:gap-12 lg:mr-20">
+            <li> Home</li>
+            <li> About</li>
+            <li> Contact US</li>
+            <li> Cart</li>
+          </ul>
+        </div>
+        
+
+          {
+           isLoggedIn ? 
+           (<button onClick ={()=> setisLoggedIn(false) } className="bg-gray-200 h-5">Logout</button> )
+           : ( <button onClick ={()=> setisLoggedIn(true) } className="bg-gray-200">Login </button>)
+          }
+          
+      
+      </div>
+    </>
+  );
+};
+
+export default Header;
