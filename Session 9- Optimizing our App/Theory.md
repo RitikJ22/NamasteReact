@@ -1,5 +1,5 @@
 ## Namaste React Course by Akshay Saini
-# Chapter 08 - Let's get Classy
+# Chapter 09 - Optimizing Our App
 
 
 ## Q: When and why do we need `lazy()`?
