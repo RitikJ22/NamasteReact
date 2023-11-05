@@ -104,18 +104,23 @@ A: In React, Suspense is a feature that allows you to handle asynchronous operat
 
 When you're fetching data from an API or making network requests in your React components, these operations are asynchronous. Suspense can help you manage the loading and error states more effectively.
 Instead of using conditional rendering or loading states, you can use Suspense with the React.lazy function or the useEffect hook to handle data fetching and code splitting.
+
 2. Code Splitting:
 
 When you're code-splitting your React application to load parts of it on-demand, you can use React.lazy with Suspense to display loading indicators while components are being loaded.
+
 3. Concurrent Mode:
 
 In React Concurrent Mode (an experimental mode as of my last knowledge update in January 2022), Suspense is more integrated and powerful. It allows you to pause rendering, display fallback UI, and handle asynchronous data fetching and rendering in a more seamless way.
+
 4. Improved User Experience:
 
 Suspense helps provide a better user experience by allowing you to display loading spinners or fallback content while waiting for data to be fetched or components to load. This can prevent the user from seeing a partially rendered or empty page.
+
 5. Error Handling:
 
 Suspense also enables better error handling. You can use it to catch and handle errors that occur during asynchronous operations, providing a more graceful way to communicate errors to users.
+
 6. Reducing Complexity:
 
 By using Suspense, you can simplify your component logic. It eliminates the need for managing loading and error states in your components manually, making your code cleaner and more maintainable.
