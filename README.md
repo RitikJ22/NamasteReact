@@ -3,6 +3,6 @@
 
 [Namaste React Certificate](https://learn.namastedev.com/share-certificate?serialno=DJRAERFK)
 
-# Updated the Coding Assignment & Theory Assignment  ( in Main Branch)
-# Session Commmits ( in Master Branch)
+# Coding Assignment & Theory Assignment  ( in Main Branch)
+# ZIGFOOD APP ( in Master Branch)
 
