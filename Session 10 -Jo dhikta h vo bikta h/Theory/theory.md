@@ -161,6 +161,17 @@ Following are the configurations we require to setup tailwind.
                 }),
             ]
         }
+##Q :  Why do we have `.postcssrc` file?
+  A: If you’re using Tailwind for a brand new project and don’t need to integrate it with any existing Sass/Less/Stylus stylesheets, you should highly consider relying on other PostCSS plugins to add the preprocessor features you use instead of using a separate preprocessor.
 
+This has a few benefits:
+
+```
+#Your builds will be faster.
+ Since your CSS doesn’t have to be parsed and processed by multiple tools, your CSS will compile much quicker using only PostCSS.
+#No quirks or workarounds.
+Because Tailwind adds some new non-standard keywords to CSS (like @tailwind, @apply, theme(), etc.), you often have to write your CSS in annoying, unintuitive ways to get a preprocessor to give you the expected output. Working exclusively with PostCSS avoids this.
+
+```
 
 
