@@ -161,7 +161,7 @@ Following are the configurations we require to setup tailwind.
                 }),
             ]
         }
-##Q :  Why do we have `.postcssrc` file?
+## Q :  Why do we have `.postcssrc` file?
   A: If you’re using Tailwind for a brand new project and don’t need to integrate it with any existing Sass/Less/Stylus stylesheets, you should highly consider relying on other PostCSS plugins to add the preprocessor features you use instead of using a separate preprocessor.
 
 This has a few benefits:
